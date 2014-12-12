@@ -1,0 +1,7 @@
+Please go here and authorize:  https://api.twitter.com/oauth/authorize?oauth_token=SMMSrSqFym6KJUsH5Dtdnei2asxyH5nx
+Paste the full redirect URL here: Traceback (most recent call last):
+  File "main.py", line 83, in <module>
+    twitterToken = twitterInit()
+  File "main.py", line 61, in twitterInit
+    redirect_response = raw_input("Paste the full redirect URL here: ")
+IOError: [Errno 9] Bad file descriptor
